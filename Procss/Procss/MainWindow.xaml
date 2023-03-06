@@ -1,0 +1,15 @@
+﻿<Window x:Class="Procss.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Procss"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="text1" HorizontalAlignment="Center" Margin="0,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="780" Height="180"/>
+        <Button Content="Додати" HorizontalAlignment="Left" Margin="95,319,0,0" VerticalAlignment="Top" Height="40" Width="95" Click="Button_Click"/>
+        <Button x:Name="But2" Content="Видалити" HorizontalAlignment="Left" Margin="609,319,0,0" VerticalAlignment="Top" Height="40" Width="96" Click="But2_Click"/>
+        <TextBox x:Name="text2" HorizontalAlignment="Center" Margin="0,269,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="610" Height="30" FontSize="17"/>
+    </Grid>
+</Window>
